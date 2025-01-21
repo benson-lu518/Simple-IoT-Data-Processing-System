@@ -40,7 +40,7 @@ This project implements a microservice-based architecture using FastAPI to manag
   
 ### Clone the Repository
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/benson-lu518/Simple-IoT-Data-Processing-System.git
+cd Simple-IoT-Data-Processing-System
 docker-compose up --build
 ```
