@@ -41,6 +41,7 @@ This project implements a microservice-based architecture using FastAPI to manag
 - FastAPI
 - SQLite (for database storage)
 - Docker
+- Pytest
   
 ### Clone the Repository
 ```bash
