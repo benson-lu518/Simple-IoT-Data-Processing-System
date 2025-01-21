@@ -7,12 +7,15 @@ This project implements a microservice-based architecture using FastAPI to manag
 2. **Message Gateway Service**: Processes messages of type `registration` and `reading`.
 
 ## Features
+
+![image](https://github.com/user-attachments/assets/42d571a4-7587-4214-8911-df5b9e07a074)
+
+
 - **Device Service**:
   - Register or update a device's username using its ID.
   `**PUT /devices/:deviceId**`
   - Retrieve the username associated with a device.
   `**GET /devices/:deviceId/username**`
-
 
 - **Message Handling Service**:
  
