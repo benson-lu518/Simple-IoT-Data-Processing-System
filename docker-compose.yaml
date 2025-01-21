@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  device-service:
+    build:
+      context: ./device-service
+    ports:
+      - "8001:8001"
+
+  message-gateway-service:
+    build:
+      context: ./message-gateway-service
+    ports:
+      - "8002:8002"
